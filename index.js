@@ -7,3 +7,9 @@ function nameToAttributes(drivers) {
     return ({firstName:item.split(' ')[0], lastName:item.split(' ')[1]});
   })
 }
+
+function attributesToPhrase(drivers) {
+  return drivers.map(function(item) {
+    return name.item + ' is from ' + hometown.item
+  })
+}
